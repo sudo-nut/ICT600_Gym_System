@@ -1,6 +1,6 @@
 <?php
 // Include database connection for session start
-require_once 'includes/db.php';
+require_once 'db.php';
 
 // Destroy all session data
 $_SESSION = array();

@@ -1,8 +1,8 @@
 <?php
-$host = "100.93.101.105";
+$host = "127.0.0.1";
 $username = "dbuser";
 $password = "dbuser@123";
-$database = "gym_system";
+$database = "membership_system";
 
 $conn = new mysqli($host, $username, $password, $database);
 
