@@ -14,7 +14,7 @@ $conn->set_charset("utf8mb4");
 
 error_reporting(E_ALL);
 ini_set("display_errors", 1);
-ini_set("log_errors", 1);
+ini_set("display_startup_errors", 1);
 
 function sanitize_input($data, $conn)
 {
