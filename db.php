@@ -2,7 +2,7 @@
 $host = "127.0.0.1";
 $username = "dbuser";
 $password = "dbuser@123";
-$database = "membership_system";
+$database = "gym_membership_system";
 
 $conn = new mysqli($host, $username, $password, $database);
 
