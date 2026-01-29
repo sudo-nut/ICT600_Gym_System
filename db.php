@@ -2,7 +2,7 @@
 $host = "localhost";
 $username = "root";
 $password = "";
-$database = "membership_system";
+$database = "gym_membership_system";
 
 $conn = new mysqli($host, $username, $password, $database);
 
