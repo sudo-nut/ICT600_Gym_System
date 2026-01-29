@@ -2,7 +2,7 @@
 $host = "127.0.0.1";
 $username = "dbuser";
 $password = "dbuser@123";
-$database = "gym_membership_system";
+$database = "membership_system";
 
 $conn = new mysqli($host, $username, $password, $database);
 
@@ -14,6 +14,7 @@ $conn->set_charset("utf8mb4");
 
 error_reporting(E_ALL);
 ini_set("display_errors", 1);
+ini_set("log_errors", 1);
 
 function sanitize_input($data, $conn)
 {
